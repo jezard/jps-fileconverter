@@ -21,7 +21,7 @@ BEGIN {
 
   eval $expr if $expr ne '';
 }
-use lib '/var/www/jps-fileconverter';
+use lib '/var/www/html/sites/jps-fileconverter';
 use Garmin::FIT;
 
 $debug = 0 if !defined $debug;
